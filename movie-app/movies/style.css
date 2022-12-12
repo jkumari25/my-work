@@ -1,0 +1,84 @@
+
+ *{
+    background-color:lightpink;
+ }
+#container img{ 
+    width: 60%; 
+    height: 500px; 
+    display: block; 
+    margin: auto; 
+}  
+ 
+#top{ 
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: center; 
+    
+} 
+#top{ 
+    position: relative; 
+} 
+ 
+input{ 
+    padding: 10px 20px; 
+    font-size: 28px; 
+    border-radius: 10px; 
+    width: 262px; 
+} 
+h1{ 
+    color: rgb(71, 71, 143) ; 
+} 
+
+ 
+#errorDiv{ 
+    width: 60%; 
+    margin: auto; 
+} 
+ 
+#moviedetail{ 
+    display: grid; 
+    grid-template-columns: 40% 60%; 
+    grid-template-rows: auto; 
+    gap:30px; 
+ 
+} 
+#movieData{ 
+    width: 300px; 
+    height: 280px; 
+    border: 1px solid black; 
+    margin: auto; 
+    overflow-y: scroll; 
+    visibility:hidden; 
+} 
+ 
+#movieData > a > div{ 
+    display: grid; 
+    grid-template-columns: 40% 60%; 
+    grid-template-rows: 50px; 
+    /* gap:3px; */ 
+    border: 1px solid black; 
+    padding: 2px 0; 
+    font-weight: bold; 
+} 
+ 
+#movieData > a > div:hover{ 
+    background-color: rgb(184, 209, 210); 
+} 
+#movieData > a > div > img{ 
+    width: 100px; 
+    height: 100%;     
+} 
+#moviedetail > div > h2{ 
+    font-size: 30px; 
+} 
+#moviedetail > div > h2+ul{ 
+    display: flex; 
+    gap: 20px; 
+    font-size: 18px; 
+    font-weight: 600;
+    color: gray; 
+} 
+ 
+#moviedetail > div > p { 
+    width: 70%; 
+}
